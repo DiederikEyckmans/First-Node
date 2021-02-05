@@ -1,8 +1,6 @@
-function giveGroup(geboortedatum)
+function giveGroup(gbdate)
 {
-    console.log("Geef je geboortedatum: " + readline());
-    var group = gbdate % 7;
-    console.log(input);
-
+    var group = 1 + gbdate % 7;
+    console.log("Je bent toegewezen aan groep " + group);
 }
-giveGroup(15);
+giveGroup(2015);
